@@ -77,5 +77,5 @@
 }
 
 .footer-image{
-    /* opacity: 0.5; */
+    object-fit: cover;
 }
