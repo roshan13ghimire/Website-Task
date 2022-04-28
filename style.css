@@ -28,6 +28,54 @@
 .nav-list-item-links{
     text-decoration: none;
     font-size: 25px;
-    color:red;
-    
+    color:red; 
+}
+.carousel{
+    width: 65%;
+    margin:40px auto;
+}
+
+.text-image{
+
+    width: 80%;
+    margin:70px auto;
+    justify-content: space-between;
+}
+.text{
+    width: 50%;
+    font-size: 30px;
+    text-align: justify;
+}
+.image{
+    width: 50%;
+    height: 30%;
+}
+.only-text-section{
+    margin-top:30px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.services{
+    width:70%;
+    margin:40px auto;
+}
+.services-heading-text{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.services-content{
+    justify-content: space-between;
+}
+.services-text{
+    margin-top:15px;
+    font-size: 30px;
+}
+.services-box{
+    width:30%;
+}
+
+.footer-image{
+    /* opacity: 0.5; */
 }
