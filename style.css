@@ -1,81 +1,108 @@
-.body{
-    margin:0;
-    padding:0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --font:'Roboto', sans-serif;
+  --darkblue: rgba(83, 117, 226, 0.96);
+  --lightblue:rgba(83, 117, 226, 0.15);
+  --grayfont:rgba(92, 97, 110, 1);
+  --red:rgba(253, 84, 84, 0.98);
+  --graybg:rgba(92, 97, 110, 1)
+  --black:rgba(0, 0, 0, 1);
+  --white:rgba(255,255,255,1);
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:var(--font);
     box-sizing: border-box;
 }
 .flex{
-    display: flex;
+    display:flex;
 }
-.main{
-    width:100%;
+.flex-sb{
+   justify-content: space-between; 
+}
+.f-50{
+    font-size: 50px;
+}
+.f-30{
+    font-size: 30px;
+}
+.f-25{
+    font-size: 25px;
+}
+.f-20{
+    font-size: 20px;
+}
+.wd-70{
+    width:70%;
+}
+.header{
+    height:8vh;
     background-color: aqua;
 }
-.header{ 
-    width:90%;
-    margin:0px auto;
-    padding:20px 0px;
-    justify-content: space-between;
-    color:red;
+.company-name{
+    padding:15px 40px;
 }
 .span-name{
-    color: green;
+    color:brown
+}
+.nav-list{
+    list-style: none;
 }
 .nav-list-item{
-    list-style-type: none;
-    float: left;
+    float:left;
     padding:20px 40px;
+    cursor:pointer;
 }
 .nav-list-item-links{
+    color:black;  
     text-decoration: none;
-    font-size: 25px;
-    color:red; 
 }
-.carousel{
-    width: 65%;
-    margin:40px auto;
+.nav-list-item-links:hover{
+    color:crimson;
 }
-
-.text-image{
-
-    width: 80%;
-    margin:70px auto;
-    justify-content: space-between;
-}
-.text{
-    width: 50%;
-    font-size: 30px;
-    text-align: justify;
-}
-.image{
-    width: 50%;
-    height: 30%;
-}
-.only-text-section{
-    margin-top:30px;
-    font-size: 30px;
-    text-align: justify;
+.fa-solid.fa-bars {
+    display: none;
+    color:black;
 }
 
-.services{
-    width:70%;
-    margin:40px auto;
-}
-.services-heading-text{
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-.services-content{
-    justify-content: space-between;
-}
-.services-text{
-    margin-top:15px;
-    font-size: 30px;
-}
-.services-box{
-    width:30%;
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .company-name-text{
+        padding:5px;
+        font-size: 25px;
+    }
+    .nav-list-item{
+        font-size: 20px;
+        padding:20px;
+    }
 }
 
-.footer-image{
-    object-fit: cover;
+@media screen and (max-width: 768px) {
+    .main{
+        position: relative;
+    }
+    .company-name-text{
+        font-size: 23px;
+    }
+    .nav-list-item{
+        display: none;
+    }
+    i{
+        display: block !important;
+        position: absolute;
+        top:30%;
+        right:10%;
+
+    }
+    
 }
+
+
