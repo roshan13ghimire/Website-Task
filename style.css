@@ -1,0 +1,33 @@
+.body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.main{
+    width:100%;
+    background-color: aqua;
+}
+.header{ 
+    width:90%;
+    margin:0px auto;
+    padding:20px 0px;
+    justify-content: space-between;
+    color:red;
+}
+.span-name{
+    color: green;
+}
+.nav-list-item{
+    list-style-type: none;
+    float: left;
+    padding:20px 40px;
+}
+.nav-list-item-links{
+    text-decoration: none;
+    font-size: 25px;
+    color:red;
+    
+}
