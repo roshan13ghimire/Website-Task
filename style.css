@@ -287,6 +287,20 @@
     text-align: center;
 }
 
+/* About */
+
+.about{
+    margin:30px auto;
+}
+.h-text{
+    margin-bottom: 20px;
+}
+.colorful{
+    color:red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 @keyframes mymove {
     from {top: 0px;}
     to {top: 200px;}
