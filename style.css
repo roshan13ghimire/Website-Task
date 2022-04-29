@@ -109,6 +109,8 @@
 .section-image{
     object-fit: cover;
     border-radius: 20px;
+    height: auto;
+
 }
 
 /* Only-Text-Section */
@@ -176,12 +178,13 @@
 /* Static Banner */
 .banner{
     width: 80%;
-    height: 800px;
     margin: 40px auto; 
 }
 .banner-image{
     object-fit: cover;
     border-radius: 20px;
+    width: 100%;
+    height: auto;
 }
 
 /* Board Member */
@@ -298,7 +301,7 @@
 .colorful{
     color:red;
     font-weight: bold;
-    font-size: 30px;
+    text-transform: uppercase;
 }
 
 @keyframes mymove {
