@@ -35,6 +35,9 @@
 .f-20{
     font-size: 20px;
 }
+.f-15{
+    font-size: 15px;
+}
 .wd-20{
     width: 20%;
 }
@@ -170,6 +173,79 @@
     margin-top:-50px;
     text-align: center;
 }
+/* Static Banner */
+.banner{
+    width: 80%;
+    height: 800px;
+    margin: 40px auto; 
+}
+.banner-image{
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Board Member */
+
+.board-section{
+    margin:30px auto;
+}
+.our-board-text{
+    text-align: center;
+}
+.board-members img:hover{
+    opacity:0.5;
+}
+.president{
+    margin:30px auto;
+    position: relative;
+}
+.president-name{
+    position: absolute;
+    top: 50%;
+    left:10%;
+    display: none;
+}
+.president img:hover + .president-name{
+    display: block;
+    animation: mymove 2s;
+    animation-iteration-count: 1
+}
+.v-president{
+    margin:30px auto;
+    position: relative;
+}
+.v-president-name{
+    position: absolute;
+    top: 50%;
+    left:10%;
+    display: none;
+}
+.v-president img:hover + .v-president-name{
+    display: block;
+    animation: mymove 2s;
+    animation-iteration-count: 1
+}
+.emp{
+    margin:30px auto;
+    position: relative;
+}
+.emp-name{
+    position: absolute;
+    top: 50%;
+    left:10%;
+    display: none;
+}
+.emp img:hover + .emp-name{
+    display: block;
+    animation: mymove 2s;
+    animation-iteration-count: 1
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+
 
 
 
@@ -219,6 +295,10 @@
         position: relative;
         
     }
+    .board-members img{
+        height: 400px;
+        width: 400px;
+    }
 
 }
 
@@ -228,6 +308,9 @@
     }
     .r-wd-90{
         width: 90%;
+    }
+    .r-wd-30{
+        width: 30%;
     }
     .r-fs-20{
         font-size: 20px;
@@ -290,6 +373,10 @@
     }
     .copyright{
         margin-top:-80px;
+    }
+    .board-members img{
+        height: 300px;
+        width: 300px;
     }
     
 }
