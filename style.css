@@ -241,6 +241,52 @@
     animation-iteration-count: 1
 }
 
+/* Contact */
+.contact{
+    margin:30px auto;
+}
+.contact-form{
+    width:50%;
+    margin:0px auto;
+    font-size: 18px;
+    border-radius: 20px;
+    color: var(--grayfont);
+    border: 5px solid var(--lightblue);
+    box-shadow: 1px 2px 5px 5px var(--lightblue);
+    -webkit-box-shadow: 1px 2px 5px 5px var(--lightblue);
+    -moz-box-shadow: 1px 2px 5px 5px var(--lightblue);
+}
+.form{
+    padding:15px 15px; 
+}
+.input{
+    width:60%;
+    padding:15px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--lightblue);
+}
+.submit-button{
+    width: 20%;
+    margin:0px auto;
+    padding-bottom: 20px;
+
+}
+.button{
+    padding:20px 40px;
+    border-radius: 20px;
+    background-color: #5778e2;
+    border: none;
+    outline: none;
+    color:white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.address{
+    text-align: center;
+}
+
 @keyframes mymove {
     from {top: 0px;}
     to {top: 200px;}
@@ -256,6 +302,9 @@
 @media screen and (max-width: 1200px) {
     .flex-col{
         flex-direction: column;
+    }
+    .r-wd-85{
+        width: 85%;
     }
     .company-name-text{
         padding:5px;
@@ -299,6 +348,10 @@
         height: 400px;
         width: 400px;
     }
+    .map{
+        margin:40px 50px;
+    }
+    
 
 }
 
@@ -308,6 +361,9 @@
     }
     .r-wd-90{
         width: 90%;
+    }
+    .r-wd-85{
+        width: 85%;
     }
     .r-wd-30{
         width: 30%;
@@ -377,6 +433,9 @@
     .board-members img{
         height: 300px;
         width: 300px;
+    }
+    .map{
+        margin:40px 50px;
     }
     
 }
