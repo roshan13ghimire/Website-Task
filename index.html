@@ -10,12 +10,14 @@
     <!-- </CSS> -->
 
     <!-- <Font Awesome CDN> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- </Font Awesome CDN> -->
 
     <!-- <BOOTSTRAP> -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- </BOOTSTRAP> -->
 
     <title>Company Name || Home Page</title>
@@ -28,18 +30,134 @@
             <div class="company-name f-20">
                 <h1 class="company-name-text">Company's <span class="span-name">Name</span></h1>
             </div>
-            <nav class="nav">
+            <div class="nav" id="navbar">
                 <ul class="nav-list">
                     <li class="nav-list-item"><a class="nav-list-item-links" href="#">Home</a></li>
                     <li class="nav-list-item"><a class="nav-list-item-links" href="#">About</a></li>
                     <li class="nav-list-item"><a class="nav-list-item-links" href="board.html">Board Members</a></li>
                     <li class="nav-list-item"><a class="nav-list-item-links" href="#">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
         </header>
-        <i class="fa-solid fa-bars f-30"></i>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars f-30"></i></a>
+
+
+        <!-- </Header> -->
+
+        <!-- <Carousel> -->
+
+        <!-- <div id="carouselExampleIndicators" class="carousel slide wd-70" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/img3.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/img2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/img1.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> -->
+        <!-- </Carousel> -->
+
+        <!-- <Image Text Section> -->
+        <div class="image-text-section flex flex-sb wd-80 flex-col r-wd-95">
+            <div class="image-section">
+                <img class = "section-image" src="images/img2.jpg" height="424px" width="636px" alt="image" />
+            </div>
+            <div class="text-section wd-40">
+                <p class="text text-justify f-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quaerat quisquam atque a
+                    ipsa commodi consequatur doloremque repellendus fugiat! Eligendi dolores omnis corrupti quis odio ut
+                    culpa praesentium aliquam corporis.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque et, a eius, ratione officiis
+                    incidunt id porro inventore ad adipisci reprehenderit sit animi voluptates est quod quia quisquam
+                    maiores cupiditate.
+                </p>
+            </div>
+        </div>
+        <!-- </Image Text Section> -->
+
+        <!-- <Only Text Section> -->
+
+            <div class="only-text wd-80 r-wd-95">
+                <p class="text text-justify f-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quaerat quisquam atque a
+                    ipsa commodi consequatur doloremque repellendus fugiat! Eligendi dolores omnis corrupti quis odio ut
+                    culpa praesentium aliquam corporis.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque et, a eius, ratione officiis
+                    incidunt id porro inventore ad adipisci reprehenderit sit animi voluptates est quod quia quisquam
+                    maiores cupiditate.
+                </p>
+            </div>
+        <!-- </Only Text Section> -->
     </div>
 
+    <!-- <Services> -->
+
+        <div class="services  wd-80">
+            <div class="our-services">
+                <h1 class="our-services-text">OUR SERVICES</h1>
+            </div>
+            <div class="services-content flex flex-sb flex-col r-wd-90">
+                <div class="services-card wd-20 ">
+                    <img src="images/img1.jpg" alt="images" height="300px" width="300px" />
+                    <h1 class = "image-name r-fs-20">UI/UX Design</h1>
+                </div>
+                <div class="services-card wd-20 ">
+                    <img src="images/img1.jpg" alt="images" height="300px" width="300px" />
+                    <h1 class = "image-name r-fs-20">UI/UX Design</h1>
+                </div>
+                <div class="services-card wd-20 ">
+                    <img src="images/img1.jpg" alt="images" height="300px" width="300px" />
+                    <h1 class = "image-name r-fs-20">UI/UX Design</h1>
+                </div>
+            </div>
+        </div>
+    <!-- </Services> -->
+
+    <!-- <Footer> -->
+        <div class="footer">
+            <img class  = "footer-image" src = "images/img3.jpg" height="100%"  width="100%"/>
+            <div class="footer-navs flex flex-col">
+                <div class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-list-item"><a href = "#" class  = "footer-nav-list-item-link" >HOME</a></li>
+                        <li class="footer-nav-list-item"><a href = "#" class  = "footer-nav-list-item-link" >ABOUT</a></li>
+                        <li class="footer-nav-list-item"><a href = "#" class  = "footer-nav-list-item-link" >BOARD MEMBERS</a></li>
+                        <li class="footer-nav-list-item"><a href = "#" class  = "footer-nav-list-item-link" >CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-list-item"><a href = "#" class  = "footer-nav-list-item-link" >ROSHAN</a></li>
+                        <li class="footer-nav-list-item"><a href = "#" class  = "footer-nav-list-item-link" >HARRY</a></li>
+                        <li class="footer-nav-list-item"><a href = "#" class  = "footer-nav-list-item-link" >RAVI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-list-item"><a href = "#" class  = "footer-nav-list-item-link" >+977- 9741810672</a></li>
+                        <li class="footer-nav-list-item"><a href = "#" class  = "footer-nav-list-item-link" >roshan13ghimire@gmail.com</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class = "copyright">Copyright © 2022 || made with ❤ by Roshan Ghimire</div>
+        </div>
+    <!-- </Footer> -->
 
     <!-- <BOOTSTRAP> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -52,6 +170,20 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <!-- </BOOTSTRAP> -->
+
+    <!-- <JS> -->
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbar");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+    </script>
+    <!-- </JS> -->
 </body>
 
 </html>
