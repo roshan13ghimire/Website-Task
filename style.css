@@ -59,11 +59,11 @@
     position: relative;
 }
 .header{
-    height:8vh;
+    height:6vh;
     background-color: aqua;
 }
 .company-name{
-    padding:15px 40px;
+    padding:20px 40px;
 }
 .span-name{
     color:brown
@@ -95,7 +95,7 @@
 /* Carousel */
 
 .carousel{
-    margin:30px auto;
+    margin:20px auto;
 }
 .d-block{
     border-radius:40px;
@@ -112,7 +112,9 @@
     height: auto;
 
 }
-
+.text{
+    line-height: 200%;
+}
 /* Only-Text-Section */
 
 .only-text{
@@ -166,25 +168,25 @@
     
 }
 .footer-nav-list-item-link{
-    font-size: 20px;
+    font-size: 15px;
     color:black;
 
 }
 .copyright{
-    font-size: 30px;
+    font-size: 20px;
     margin-top:-50px;
     text-align: center;
 }
 /* Static Banner */
 .banner{
-    width: 80%;
-    margin: 40px auto; 
+    width: 70%;
+    margin: 20px auto; 
 }
 .banner-image{
     object-fit: cover;
     border-radius: 20px;
-    width: 100%;
-    height: auto;
+    width:100%;
+    max-height: 850px !important;
 }
 
 /* Board Member */
@@ -262,6 +264,9 @@
 .form{
     padding:15px 15px; 
 }
+.form h4{
+    margin:20px 0px;
+}
 .input{
     width:60%;
     padding:15px 15px;
@@ -277,7 +282,7 @@
 
 }
 .button{
-    padding:20px 40px;
+    padding:10px 30px;
     border-radius: 20px;
     background-color: #5778e2;
     border: none;
@@ -297,6 +302,7 @@
 }
 .h-text{
     margin-bottom: 20px;
+    line-height: 1.6;
 }
 .colorful{
     color:red;
