@@ -147,29 +147,45 @@
 .footer{
     height:400px;
     position: relative;
+    color:white;
     
 }
 .footer-image{
     object-fit: cover;
-    opacity: 0.3;
 }
 .footer-navs{
     position: absolute;
-    top:0;
+    top:15%;
+    left:15%;
     width:80%;
-    margin:10px 20px;
+    margin:0px 20px;
 }
 .footer-nav{
     width: 40%;
 }
 .footer-nav-list-item{
     list-style-type: none;
-    padding:20px 0px;
-    
+    padding:5px 0px;
+   
 }
 .footer-nav-list-item-link{
-    font-size: 15px;
-    color:black;
+    font-size: 14px; 
+    color: white;
+    
+
+}
+.footer-links-text{
+    position: relative;
+    margin-bottom: 40px;
+}
+.footer-links-text::after{
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    right:79%;
+    height: 3px;
+    width:20%;
+    background-color: crimson;
 
 }
 .copyright{
