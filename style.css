@@ -71,6 +71,7 @@
 }
 .nav-list{
     list-style: none;
+    margin-right: 80px;
 }
 .nav-list-item{
     float:left;
