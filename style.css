@@ -50,6 +50,9 @@
 .wd-40{
     width: 40%;
 }
+.wd-30{
+    width:30%;
+}
 .text-justify{
     text-align: justify;
 }
@@ -59,25 +62,26 @@
     position: relative;
 }
 .header{
-    height:6vh;
-    background-color: aqua;
+    height:8vh;
+    background-color: var(--darkblue);
 }
 .company-name{
-    padding:20px 40px;
+    padding:30px 40px;
+    color:white;
 }
 .span-name{
-    color:brown
+    color:black;
 }
 .nav-list{
     list-style: none;
 }
 .nav-list-item{
     float:left;
-    padding:20px 40px;
+    padding:30px 40px;
     cursor:pointer;
 }
 .nav-list-item-links{
-    color:black;  
+    color:white;  
     text-decoration: none;
 }
 .nav-list-item-links:hover{
@@ -130,34 +134,37 @@
     text-align: center;
     margin:30px;
 }
-.services-content{
-    flex-wrap: wrap;
-}
 .services-card{
     background-color: white;
-    box-shadow: 2px 2px 10px 10px black;
+    box-shadow: 2px 2px 10px 10px var(--darkblue);
+    flex-flow: wrap;
 }
 .services-card img{
     object-fit: cover;
     margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image-name{
     text-align: center;
     color:crimson;
 }
 .services-text{
-    margin:20px 5px;
+    margin:20px 50px;
     text-align: justify;
 }
 .button1{
     padding:10px 20px;
-    margin:10px 90px;
+    display:block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--darkblue);
     outline: none;
     border: none;
     color: white;
     border-radius: 20px;
-    display: flex;
 
 }
 
